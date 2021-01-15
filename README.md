@@ -1,7 +1,7 @@
 # FRACkR
 ### MATLAB code for modelling the time-dependent evolution of permeability in fractured volcanic systems
 
-This document accompanies "*Time-dependent permeability evolution in compacting volcanic fracture systems and implications for gas overpressure.*" by Farquharson, J. I., Wadsworth, F. B., Heap, M. J., and Baud, P. ![doi:10.1016/j.jvolgeores.2017.04.025](https://doi.org/10.1016/j.jvolgeores.2017.04.025). It describes the format of the model discussed in the article, and provides instructions for its use.
+This document accompanies "*Time-dependent permeability evolution in compacting volcanic fracture systems and implications for gas overpressure.*" by Farquharson, J. I., Wadsworth, F. B., Heap, M. J., and Baud, P. [doi:10.1016/j.jvolgeores.2017.04.025](https://doi.org/10.1016/j.jvolgeores.2017.04.025). It describes the format of the model discussed in the article, and provides instructions for its use.
 
 In order to explore the time-dependent evolution of equivalent permeability of a fractured conduit margin, the series of equations outlined in the text have been combined into a multi-stage algorithm provided as Supplementary Material 1. The model (FRACkR.m: **FRA**ctured **C**onduits: permeability (**_k_**) **R**eduction) has been written and optimized for MATLAB®, a multi-paradigm numerical computing environment and programming language. In order to run the model, the FRACkR folder (Supplementary Material) must be unzipped and set as the current folder. (To identify the current folder, type `pwd` into the MATLAB® Command Window.)The model FRACkR.m must then be called (`run FRACkR.m`).The user will be prompted to input a filename, which defines an .xls file into which the modelled data are saved.
 
