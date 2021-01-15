@@ -22,12 +22,12 @@ Prompting user inputs for every conceivable parameter would greatly diminish the
 ### Functions
 
 All functions employed by the model are presented below, along with a brief description.
-The function `inputs(nt)` allows the user to input values for the timescale to compute, the temperature of the system, the depth range or "window" of interest, the mean fracture width and fracture density, and the crystal cargo of the compacting magma. Embedded in inputs(nt) are the following three functions:
+The function `inputs(nt)` allows the user to input values for the timescale to compute, the temperature of the system, the depth range or "window" of interest, the mean fracture width and fracture density, and the crystal cargo of the compacting magma. Embedded in `inputs(nt)` are the following three functions:
 ```Matlab
 fracture_width(nf,l);
 ```
 ```Matlab
-FRActured Conduits: permeability (k) Reduction fracture_generator(window_min, window_max,nf, mean_wf);
+fracture_generator(window_min, window_max,nf, mean_wf);
 ```
 ```Matlab
 Crystal();
